@@ -10,3 +10,4 @@ node_modules/
 design/
 .vscode/
 dist/
+.parcel-cache/

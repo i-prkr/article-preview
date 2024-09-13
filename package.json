@@ -1,0 +1,28 @@
+{
+  "name": "article-preview-component",
+  "version": "1.0.0",
+  "description": "component for an article preview using javascript",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-prkr/article-preview.git"
+  },
+  "author": "i-prkr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-prkr/article-preview/issues"
+  },
+  "homepage": "https://github.com/i-prkr/article-preview#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0",
+    "sass": "^1.78.0"
+  }
+}
