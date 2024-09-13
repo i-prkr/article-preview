@@ -1,0 +1,12 @@
+## Frontend Mentor
+*.sketch
+*.xd
+*.fig
+
+
+.DS_Store
+
+node_modules/
+design/
+.vscode/
+dist/
