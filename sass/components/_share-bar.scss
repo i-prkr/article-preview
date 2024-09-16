@@ -12,10 +12,11 @@
   padding-block: 1rem;
   background-color: $dark-grayish-blue;
   border-radius: 0 0 1rem 1rem;
-  transform: translate(85%);
+  transform: translateX(38rem);
   scale: 0;
+  opacity: 0;
 
-  transition-property: transform opacity scale;
+  transition-property: transform, opacity, scale;
   transition-duration: 0.2s;
   transition-behavior: allow-discrete;
 
@@ -44,7 +45,7 @@
     border-right: 1rem solid transparent;
     border-top: 1rem solid $dark-grayish-blue;
     opacity: 0;
-    transform: translate(230%, 150%);
+    transform: translate(4.6rem, 1.5rem);
     position: absolute;
   }
 
@@ -52,8 +53,7 @@
     width: fit-content;
     height: fit-content;
     padding-inline: 1rem;
-    transform: translate(155%, -80%);
-    opacity: 0;
+    transform: translate(20rem, -0.8rem);
     z-index: -1;
 
     &__triangle {
@@ -69,14 +69,14 @@
 }
 
 .share-bar-open {
-  transform: translateX(0%);
+  transform: translateX(0);
   padding-block-start: 0.5rem;
   z-index: 1;
   scale: 1;
+  opacity: 1;
 
   @include respond-to("large") {
-    transform: translate(155%, -150%);
-    opacity: 1;
+    transform: translate(20rem, -3rem);
     border-radius: 0.4rem;
     padding-block: 0;
   }

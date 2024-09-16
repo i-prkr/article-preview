@@ -81,9 +81,10 @@
   padding-block: 1rem;
   background-color: hsl(217, 19%, 35%);
   border-radius: 0 0 1rem 1rem;
-  transform: translate(85%);
+  transform: translateX(38rem);
   scale: 0;
-  transition-property: transform opacity scale;
+  opacity: 0;
+  transition-property: transform, opacity, scale;
   transition-duration: 0.2s;
   transition-behavior: allow-discrete;
 }
@@ -108,7 +109,7 @@
   border-right: 1rem solid transparent;
   border-top: 1rem solid hsl(217, 19%, 35%);
   opacity: 0;
-  transform: translate(230%, 150%);
+  transform: translate(4.6rem, 1.5rem);
   position: absolute;
 }
 @media (min-width: 75rem) {
@@ -116,8 +117,7 @@
     width: fit-content;
     height: fit-content;
     padding-inline: 1rem;
-    transform: translate(155%, -80%);
-    opacity: 0;
+    transform: translate(20rem, -0.8rem);
     z-index: -1;
   }
   .share-bar__triangle {
@@ -131,15 +131,15 @@
 }
 
 .share-bar-open {
-  transform: translateX(0%);
+  transform: translateX(0);
   padding-block-start: 0.5rem;
   z-index: 1;
   scale: 1;
+  opacity: 1;
 }
 @media (min-width: 75rem) {
   .share-bar-open {
-    transform: translate(155%, -150%);
-    opacity: 1;
+    transform: translate(20rem, -3rem);
     border-radius: 0.4rem;
     padding-block: 0;
   }
