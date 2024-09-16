@@ -1,0 +1,151 @@
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 21rem;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0px 40px 40 -10 hsl(212, 23%, 69%);
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.card__heading {
+  margin-block: 0.75rem;
+  padding-inline: 2rem;
+}
+.card__blurb {
+  padding-inline: 2rem;
+  padding-block-end: 1rem;
+}
+.card__author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.card__avatar {
+  border-radius: 50%;
+  max-width: 2.5rem;
+  object-fit: contain;
+}
+.card__arrow-share {
+  color: hsl(217, 19%, 35%);
+  background-color: hsl(210, 46%, 95%);
+}
+.card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 2rem;
+  padding-block: 0.5rem 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.card__image {
+  border-radius: 1rem 1rem 0 0;
+}
+@media (min-width: 75rem) {
+  .card {
+    grid-template-columns: 1fr 1.8fr;
+    max-width: 46rem;
+  }
+  .card__image {
+    grid-column: 1/1;
+    object-fit: cover;
+    height: 100%;
+    object-position: top left;
+    border-radius: 1rem 0 0 1rem;
+  }
+  .card__content {
+    grid-column: 2/3;
+    padding-block-start: 2rem;
+  }
+  .card__heading {
+    padding-inline: 2.5rem;
+  }
+  .card__blurb {
+    padding-inline: 2.5rem;
+    margin-block-end: 1.5rem;
+  }
+}
+
+.share-bar {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 0 0 1rem 1rem;
+  transform: translate(35%);
+  scale: 0;
+  transition-property: transform opacity scale;
+  transition-duration: 0.2s;
+  transition-behavior: allow-discrete;
+}
+.share-bar__icon-group {
+  display: flex;
+}
+.share-bar__text {
+  place-self: center;
+}
+.share-bar__icon {
+  margin: 0.65rem;
+  object-fit: contain;
+}
+.share-bar__arrow-share {
+  background-color: hsl(214, 17%, 51%);
+  color: white;
+}
+.share-bar__triangle {
+  width: 0;
+  height: 0;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-top: 1rem solid hsl(217, 19%, 35%);
+  opacity: 0;
+  transform: translate(230%, 150%);
+  position: absolute;
+}
+@media (min-width: 75rem) {
+  .share-bar {
+    width: fit-content;
+    height: fit-content;
+    padding-inline: 1rem;
+    transform: translate(155%, -80%);
+    opacity: 0;
+    z-index: -1;
+  }
+  .share-bar__triangle {
+    opacity: 1;
+  }
+  .share-bar__arrow-share {
+    background-color: hsl(214, 17%, 51%);
+    color: white;
+    display: none;
+  }
+}
+
+.share-bar-open {
+  transform: translateX(0%);
+  padding-block-start: 0.5rem;
+  z-index: 1;
+}
+@media (min-width: 75rem) {
+  .share-bar-open {
+    transform: translate(155%, -150%);
+    opacity: 1;
+    border-radius: 0.4rem;
+    padding-block: 0;
+  }
+}
+
+.arrow-share-icon {
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=index.css.map */

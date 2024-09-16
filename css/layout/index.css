@@ -1,0 +1,21 @@
+.footer {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 1rem 1rem;
+}
+@media (min-width: 75rem) {
+  .footer {
+    padding-block-end: 1.5rem;
+    overflow: visible;
+  }
+}
+
+main {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(210, 46%, 95%);
+}
+
+/*# sourceMappingURL=index.css.map */
