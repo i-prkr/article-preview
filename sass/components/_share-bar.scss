@@ -12,7 +12,7 @@
   padding-block: 1rem;
   background-color: $dark-grayish-blue;
   border-radius: 0 0 1rem 1rem;
-  transform: translate(35%);
+  transform: translate(85%);
   scale: 0;
 
   transition-property: transform opacity scale;
@@ -72,6 +72,7 @@
   transform: translateX(0%);
   padding-block-start: 0.5rem;
   z-index: 1;
+  scale: 1;
 
   @include respond-to("large") {
     transform: translate(155%, -150%);

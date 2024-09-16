@@ -221,7 +221,7 @@ h2 {
   padding-block: 1rem;
   background-color: hsl(217, 19%, 35%);
   border-radius: 0 0 1rem 1rem;
-  transform: translate(35%);
+  transform: translate(85%);
   scale: 0;
   transition-property: transform opacity scale;
   transition-duration: 0.2s;
@@ -274,6 +274,7 @@ h2 {
   transform: translateX(0%);
   padding-block-start: 0.5rem;
   z-index: 1;
+  scale: 1;
 }
 @media (min-width: 75rem) {
   .share-bar-open {
