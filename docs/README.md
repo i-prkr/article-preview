@@ -46,11 +46,11 @@ Users should be able to:
 
 ### What I learned
 
-I learned more about working with SVG images, and also CSS transitions which I have not used before. It was also good general practice as I continue using Sass and BEM methodologies.
+I learned more about working with SVG images, and also CSS transitions which I have not used before. It was also good general practice as I continue using Sass and BEM methodologies. I was also able to begin learning more accessible design through the MDN docs, that I have tried to start implementing.
 
 ### Continued development
 
-I am eager to continue improving my Sass and BEM, making sure to maintain good semantic HTML as well. I also enjoyed the CSS transitions and would like to continue becoming better with them. I found that while I spent time playing with the transitions and element positions, it paid off with them looing smooth and consistent positioning of elements like the share button.
+I am eager to continue improving how I am building accessibility into the designs and using Sass and BEM methodologies. I really enjoyed the CSS transitions and would like to continue becoming better with them as well. I found that while I spent time playing with the transitions and element positions, it paid off with them looing smooth and consistent positioning of elements like the share button.
 
 ### Useful resources
 
@@ -59,6 +59,7 @@ https://css-tricks.com/snippets/css/css-triangle/
 - [Triangle in CSS](https://css-tricks.com/snippets/css/css-triangle/) - This helped me to create a CSS triangle for the bottom of the share bar when viewed on larger screens.
 - [MDN SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started) - This helped with understanding SVG files and how to manipulate them for correct sizing and placement.
 - [MDN Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) - Helped to learn transitions for the share bar.
+- [Western Washington University: Accessible SVGs](https://urm.wwu.edu/accessibility/guide/graphics-used-links-and-buttons-need-accessible-names) - This helped me to understand correct methods to make SVG links accessible to screen readers.
 
 ## Author
 
