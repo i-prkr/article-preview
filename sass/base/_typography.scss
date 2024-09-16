@@ -1,13 +1,61 @@
 @use "../utils/colours" as *;
+@use "../utils/mixins" as *;
 
-span,
-p,
-a,
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+$font-bold: 700;
+
+body,
 h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
-  
+p,
+figure,
+blockquote,
+dl,
+dd {
+  font-family: "Manrope", sans-serif;
+  font-size: 0.813rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1rem;
+  line-height: 1.5;
+
+  @include respond-to("large") {
+    font-size: 1.25rem;
+  }
+}
+
+.text {
+  &-bold {
+    font-weight: $font-bold;
+  }
+
+  &-spacedcaps {
+    font-variant-caps: all-petite-caps;
+    letter-spacing: 0.25rem;
+  }
+
+  &-grayblue {
+    color: $grayish-blue;
+  }
+
+  &-lightgrayblue {
+    color: $light-grayish-blue;
+  }
+
+  &-darkgrayblue {
+    color: $dark-grayish-blue;
+  }
+
+  &-desatdarkblue {
+    color: $desaturated-dark-blue;
+  }
+
+  &-white {
+    color: $white;
+  }
 }

@@ -1,0 +1,13 @@
+@use "../utils/colours" as *;
+@use "../utils/mixins" as *;
+
+.footer {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 1rem 1rem;
+
+  @include respond-to("large") {
+    padding-block-end: 1.5rem;
+    overflow: visible;
+  }
+}

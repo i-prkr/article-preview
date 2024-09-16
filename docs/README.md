@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](./screenshot.jpg)
 
 ### Links
 
@@ -46,16 +46,21 @@ Users should be able to:
 
 ### What I learned
 
+I learned more about working with SVG images, and also CSS transitions which I have not used before. It was also good general practice as I continue using Sass and BEM methodologies.
+
 ### Continued development
+
+I am eager to continue improving my Sass and BEM, making sure to maintain good semantic HTML as well. I also enjoyed the CSS transitions and would like to continue becoming better with them. I found that while I spent time playing with the transitions and element positions, it paid off with them looing smooth and consistent positioning of elements like the share button.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+https://css-tricks.com/snippets/css/css-triangle/
+
+- [Triangle in CSS](https://css-tricks.com/snippets/css/css-triangle/) - This helped me to create a CSS triangle for the bottom of the share bar when viewed on larger screens.
+- [MDN SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started) - This helped with understanding SVG files and how to manipulate them for correct sizing and placement.
+- [MDN Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) - Helped to learn transitions for the share bar.
 
 ## Author
 
 - Frontend Mentor - [@i-prkr](https://www.frontendmentor.io/profile/i-prkr)
 - Github - [Github](https://github.com/i-prkr)
-
-## Acknowledgments
